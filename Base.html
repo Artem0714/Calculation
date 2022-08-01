@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Главная</title>
         <!-- <script src="../JS/app.js"></script> -->
-        <!-- <link rel="stylesheet" href="../styles/index.css"> -->
+        <link rel="stylesheet" href="../StyleButton.css">
     </head>
 
     <body>
@@ -15,30 +15,38 @@
         </header>
         
         <form class="form">
-            <div class="input string">
-                <input type="number" id="display" placeholder="Введите число">
+            <div class="inputString">
+                <input class="display" type="number" id="display" placeholder="Введите число" step="0.000000000001">
             </div>
 
             <div class="numbers">
-                <input class="btn" type="submit" value="0">
-                <input class="btn" type="submit" value="1">
-                <input class="btn" type="submit" value="2">
-                <input class="btn" type="submit" value="3">
-                <input class="btn" type="submit" value="4">
-                <input class="btn" type="submit" value="5">
-                <input class="btn" type="submit" value="6">
-                <input class="btn" type="submit" value="7">
-                <input class="btn" type="submit" value="8">
-                <input class="btn" type="submit" value="9">
-            </div>
+                <div class="String1">
+                    <input class="btn" type="submit" value="7">
+                    <input class="btn" type="submit" value="8">
+                    <input class="btn" type="submit" value="9">
+                    <input class="btn" type="submit" value="/">
+                </div>
 
-            <div class="operators">
-                <input class="btn" type="submit" value=".">
-                <input class="btn" type="submit" value="+">
-                <input class="btn" type="submit" value="-">
-                <input class="btn" type="submit" value="*">
-                <input class="btn" type="submit" value="/">
-                <input class="btn" type="submit" value="=">
+                <div class="String2">
+                    <input class="btn" type="submit" value="4">
+                    <input class="btn" type="submit" value="5">
+                    <input class="btn" type="submit" value="6">
+                    <input class="btn" type="submit" value="*">    
+                </div>
+
+                <div class="String3">
+                    <input class="btn" type="submit" value="1">
+                    <input class="btn" type="submit" value="2">
+                    <input class="btn" type="submit" value="3">
+                    <input class="btn" type="submit" value="-">
+                </div>
+
+                <div class="String4">
+                    <input class="btn" type="submit" value="0">
+                    <input class="btn" type="submit" value=".">
+                    <input class="btn" type="submit" value="+">
+                    <input class="btn" type="submit" value="=">
+                </div>                                
             </div>
         </form>
     </body>
