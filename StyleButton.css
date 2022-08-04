@@ -13,7 +13,7 @@ body {
     padding: 20px 20px;
     height: 10%;
     width: 30%;
-    margin: 10% auto 0 auto;
+    margin: 8vh auto 0 auto;
 }
 
 .form{
@@ -49,6 +49,14 @@ body {
     flex-wrap: nowrap;
     flex-direction: row;
     margin: 0 0.3vh;
+}
+
+.btn:hover {
+    background-color:#cffad6;
+}
+
+.btn:active {
+    background-color: #97fca8;
 }
 
 .String1, .String2, .String3, .String4{

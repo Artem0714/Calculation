@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Главная</title>
-        <!-- <script src="../JS/app.js"></script> -->
+        <script src="../WorkCalculation.js"></script>
         <link rel="stylesheet" href="../StyleButton.css">
     </head>
 
@@ -21,31 +21,31 @@
 
             <div class="numbers">
                 <div class="String1">
-                    <input class="btn" type="submit" value="7">
-                    <input class="btn" type="submit" value="8">
-                    <input class="btn" type="submit" value="9">
-                    <input class="btn" type="submit" value="/">
+                    <button class="btn" id="submit7" type="submit" onclick="getValue7()" value="7"> 7 </button>
+                    <button class="btn" id="submit8" type="submit" onclick="getValue8()" value="8"> 8 </button>
+                    <button class="btn" id="submit9" type="submit" onclick="getValue9()" value="9"> 9 </button>
+                    <button class="btn" id="submit/" type="submit" onclick="getValue()" value="/"> / </button>
                 </div>
 
                 <div class="String2">
-                    <input class="btn" type="submit" value="4">
-                    <input class="btn" type="submit" value="5">
-                    <input class="btn" type="submit" value="6">
-                    <input class="btn" type="submit" value="*">    
+                    <input class="btn" id="submit4" type="submit" onclick="getValue4()" value="4">
+                    <input class="btn" id="submit5" type="submit" onclick="getValue5()" value="5">
+                    <input class="btn" id="submit6" type="submit" onclick="getValue6()" value="6">
+                    <input class="btn" id="submit*" type="submit" onclick="getValue()" value="*">    
                 </div>
 
                 <div class="String3">
-                    <input class="btn" type="submit" value="1">
-                    <input class="btn" type="submit" value="2">
-                    <input class="btn" type="submit" value="3">
-                    <input class="btn" type="submit" value="-">
+                    <input class="btn" id="submit1" type="submit" onclick="getValue1()" value="1">
+                    <input class="btn" id="submit2" type="submit" onclick="getValue2()" value="2">
+                    <input class="btn" id="submit3" type="submit" onclick="getValue3()" value="3">
+                    <input class="btn" id="submit-" type="submit" onclick="getValue()" value="-">
                 </div>
 
                 <div class="String4">
-                    <input class="btn" type="submit" value="0">
-                    <input class="btn" type="submit" value=".">
-                    <input class="btn" type="submit" value="+">
-                    <input class="btn" type="submit" value="=">
+                    <button class="btn" id="submit0" type="submit" onclick="getValue0()" value="0"> 0 </button>
+                    <input class="btn" id="submitPoint" type="submit" onclick="getValuePoint()" value=".">
+                    <input class="btn" id="submit+" type="submit" onclick="getValue()" value="+">
+                    <input class="btn" id="submit=" type="submit" onclick="getValue()" value="=">
                 </div>                                
             </div>
         </form>
