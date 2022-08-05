@@ -1,4 +1,4 @@
-
+//по мне так чушь то что я здесь написал..Заново давай!
 
 function getValue0(){
     // document.getElementById("display").value
