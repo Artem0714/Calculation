@@ -22,7 +22,7 @@ body {
     padding: 0px;
 }
 
-.pString {
+.inputString {
     padding: 1px;
     margin: 0.5vh auto 0.5vh auto;
 }
@@ -69,4 +69,9 @@ body {
 
 .numbers {
     height: 60vh;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
