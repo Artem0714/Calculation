@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Главная</title>
-        <script src="../WorkCalculation.js"></script>
         <link rel="stylesheet" href="../StyleButton.css">
     </head>
 
@@ -16,38 +15,39 @@
         
         <form class="form">
             <div class="inputString">
-                <input class="display" type="number" id="display" placeholder="Введите число" step="0.000000000001">//есть ощущение что input для дисплея не годится.. наверно лучше применить обычный текст <p></p>
+                <input class="display" type="number" id="display" placeholder="Введите число">
             </div>
 
             <div class="numbers">
                 <div class="String1">
-                    <button class="btn" id="submit7" type="submit" onclick="getValue7()" value="7"> 7 </button>
-                    <button class="btn" id="submit8" type="submit" onclick="getValue8()" value="8"> 8 </button>
-                    <button class="btn" id="submit9" type="submit" onclick="getValue9()" value="9"> 9 </button>
-                    <button class="btn" id="submit/" type="submit" onclick="getValue()" value="/"> / </button>
+                    <button class="btn" type="button" value="7"> 7 </button>
+                    <button class="btn" type="button" value="8"> 8 </button>
+                    <button class="btn" type="button" value="9"> 9 </button>
+                    <button class="btn" type="button" value="/" act> / </button>
                 </div>
 
                 <div class="String2">
-                    <input class="btn" id="submit4" type="submit" onclick="getValue4()" value="4">
-                    <input class="btn" id="submit5" type="submit" onclick="getValue5()" value="5">
-                    <input class="btn" id="submit6" type="submit" onclick="getValue6()" value="6">
-                    <input class="btn" id="submit*" type="submit" onclick="getValue()" value="*">    
+                    <button class="btn" type="button" value="4"> 4 </button>
+                    <button class="btn" type="button" value="5"> 5 </button>
+                    <button class="btn" type="button" value="6"> 6 </button>
+                    <button class="btn" type="button" value="*" act> * </button>
                 </div>
 
                 <div class="String3">
-                    <input class="btn" id="submit1" type="submit" onclick="getValue1()" value="1">
-                    <input class="btn" id="submit2" type="submit" onclick="getValue2()" value="2">
-                    <input class="btn" id="submit3" type="submit" onclick="getValue3()" value="3">
-                    <input class="btn" id="submit-" type="submit" onclick="getValue()" value="-">
+                    <button class="btn" type="button" value="1"> 1 </button>
+                    <button class="btn" type="button" value="2"> 2 </button>
+                    <button class="btn" type="button" value="3"> 3 </button>
+                    <button class="btn" type="button" value="-" act> - </button>
                 </div>
 
                 <div class="String4">
-                    <input class="btn" id="submit0" type="submit" onclick="getValue0()" value="0">
-                    <input class="btn" id="submitPoint" type="submit" onclick="getValuePoint()" value=".">
-                    <input class="btn" id="submit+" type="submit" onclick="getValue()" value="+">
-                    <input class="btn" id="submit=" type="submit" onclick="getValue()" value="=">
+                    <button class="btn" type="button" value="0"> 0 </button>
+                    <button class="btn" type="button" value="." act> . </button>
+                    <button class="btn" type="button" value="+" act> + </button>
+                    <button class="btn" type="button" value="=" act> = </button>
                 </div>                                
             </div>
         </form>
     </body>
+    <script src="../WorkCalculation.js"></script>
 </html>
